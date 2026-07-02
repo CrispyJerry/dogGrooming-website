@@ -3,36 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/test.css">
-    <title>Test-Webpage</title>
-    <link rel="icon" href="assets/favi.png" type="image/png">
+    <meta name="description" content="The page you are looking for could not be found. Return to the Bubbles Grooming homepage.">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/test.css">
+    <title>Page Not Found | Bubbles Grooming</title>
+    <link rel="icon" href="assets/favicon-64.png" type="image/png">
     <script src="test.js" defer></script>
 </head>
 <body>
     <header class="site-header">
         <div class="Logo">
-            <a href="index.html">
-                <img class="logo-img" src="assets/favi.png" alt="">
+            <a href="index.html" aria-label="Bubbles Grooming home">
+                <img class="logo-img" src="assets/logo-128.png" alt="Bubbles Grooming" width="75" height="75">
             </a>
         </div>
-        <nav>
-            <ul class="sidebar">
-                <li class="sidebarLink"><a class="mainLink" href="">Placeholder</a></li>
-                <li class="sidebarLink"><a class="mainLink" href="">Placeholder</a></li>
-                <li class="sidebarLink"><a class="mainLink" href="">Placeholder</a></li>
-                <li class="sidebarLink"><a class="mainLink" href="">Placeholder</a></li>
+        <nav aria-label="Main navigation">
+            <ul class="sidebar" id="mobile-menu">
+                <li class="sidebarLink"><a class="mainLink" href="index.html">Home</a></li>
+                <li class="sidebarLink"><a class="mainLink" href="about.html">About Us</a></li>
+                <li class="sidebarLink"><a class="mainLink" href="services.html">Services</a></li>
+                <li class="sidebarLink"><a class="mainLink" href="contact.html">Contact Us</a></li>
             </ul>
             
             <ul>
-                <li class="hideMobile"><a class="mainLink" href="">Placeholder</a></li>
-                <li class="hideMobile"><a class="mainLink" href="">Placeholder</a></li>
-                <li class="hideMobile"><a class="mainLink" href="">Placeholder</a></li>
+                <li class="hideMobile"><a class="mainLink" href="index.html">Home</a></li>
+                <li class="hideMobile"><a class="mainLink" href="about.html">About Us</a></li>
+                <li class="hideMobile"><a class="mainLink" href="services.html">Services</a></li>
+                <li class="hideMobile"><a class="mainLink" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <div class="hamburger">
+        <button class="hamburger" type="button" aria-label="Open navigation menu" aria-controls="mobile-menu" aria-expanded="false">
             <div class="bar"></div>
             <div class="bar"></div>
-        </div>
+        </button>
     </header>
 
     <main>
@@ -47,12 +51,12 @@
         <div class="footer-content">
                 <div class="footer-links">
                     <div class="footerLogo">
-                        <p>Logo</p>
+                        <img class="logo-img" src="assets/logo-128.png" alt="Bubbles Grooming" width="75" height="75" loading="lazy" decoding="async">
                     </div>
                     <div class="footer-section">
                         <ul class="footer-section-list">
                             <li class="boldText">Quick Links</li>
-                            <li><a class="footerLink" href="about.html">Home</a></li>
+                            <li><a class="footerLink" href="index.html">Home</a></li>
                             <li><a class="footerLink" href="about.html">About</a></li>
                             <li><a class="footerLink" href="services.html">Services</a></li>
                             <li><a class="footerLink" href="contact.html">Contact</a></li>
@@ -61,15 +65,15 @@
                     
                     <div class="footer-section">
                         <ul>
-                            <li class="boldText"><a class="footerLink" href="">Contact</a></li>
-                            <li><a class="footerLink" href="#">Email: email@email.com</a></li>
-                            <li><a class="footerLink" href="#">Phone: 089 8238 823</a></li>
+                            <li class="boldText"><a class="footerLink" href="contact.html">Contact</a></li>
+                            <li><a class="footerLink" href="contact.html">Email: email@email.com</a></li>
+                            <li><a class="footerLink" href="contact.html">Phone: 089 8238 823</a></li>
                         </ul>
                     </div>
 
                     <div class="footer-section">
                         <ul>
-                            <li class="boldText"><a class="footerLink" href="">Address</a></li>
+                            <li class="boldText"><a class="footerLink" href="contact.html">Address</a></li>
                             <li class="footerList">80 Stephen's Green</li>
                             <li class="footerList">Dublin 8</li>
                             <li class="footerList">D08 HE80</li>
@@ -79,7 +83,7 @@
                 </div>
                 <br>
             <p class="copyright-text">
-                &copy; All content is owned by (Insert Business) | 2026
+                &copy; All content is owned by Bubbles Grooming | 2026
             </p>
         </div>
     </footer>

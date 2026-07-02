@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the story behind Bubbles Grooming, a Dublin dog grooming business focused on careful, trusted grooming for every dog.">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/test.css">
-    <title>About Us</title>
-    <link rel="icon" href="assets/favi.png" type="image/png">
+    <title>About Bubbles Grooming | Dog Groomer in Dublin</title>
+    <link rel="icon" href="assets/favicon-64.png" type="image/png">
     <script src="test.js" defer></script>
 </head>
 <body>
     <header class="site-header">
         <div class="Logo">
-            <a href="index.html">
-                <img class="logo-img" src="assets/favi.png" alt="">
+            <a href="index.html" aria-label="Bubbles Grooming home">
+                <img class="logo-img" src="assets/logo-128.png" alt="Bubbles Grooming" width="75" height="75">
             </a>
         </div>
-        <nav>
-            <ul class="sidebar">
+        <nav aria-label="Main navigation">
+            <ul class="sidebar" id="mobile-menu">
                 <li class="sidebarLink"><a class="mainLink" href="index.html">Home</a></li>
                 <li class="sidebarLink"><a class="mainLink" href="services.html">Services</a></li>
                 <li class="sidebarLink"><a class="mainLink" href="contact.html">Contact Us</a></li>
@@ -28,10 +31,10 @@
                 <li class="hideMobile"><a class="mainLink" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <div class="hamburger">
+        <button class="hamburger" type="button" aria-label="Open navigation menu" aria-controls="mobile-menu" aria-expanded="false">
             <div class="bar"></div>
             <div class="bar"></div>
-        </div>
+        </button>
     </header>
 
     <main>
@@ -39,12 +42,12 @@
             <div class="about-info">
                 <div class="about-text">
                     <h2 class="content-heading">Our Story</h2>
-                    <p>Starting from my backgarden washing my own dog I knew I wanted to extend that same care i had for my own dog towards other people's dogs as well.
+                    <p>Starting from my back garden washing my own dog I knew I wanted to extend that same care I had for my own dog towards other people's dogs as well.
                         That is when I decided that I would take it seriously full time and begin to show others that their dog is my own when it is in my care.
                     </p>
                     <br>
                     <p>
-                        After saving up for 3 years from grooming many dogs in my own back garden to other people's houses I then made enough to purchase my own place and fully commit to the vision I had in mind when i first set out on this journey.
+                        After saving up for 3 years from grooming many dogs in my own back garden to other people's houses I then made enough to purchase my own place and fully commit to the vision I had in mind when I first set out on this journey.
                     </p>
                     <br>
                     <p>Now Dog Groomers has grown as a hub for pets to refresh themselves with the care that they deserve and need inside of a fully dedicated and modern dog grooming facility.</p>
@@ -53,7 +56,7 @@
 
             <div class="about-img">
                 <div class="about-image-container">
-                    <img src="assets/image.webp" alt="" class="about-image">
+                    <img src="assets/dog-grooming-card.jpg" alt="Freshly groomed dog" class="about-image" width="720" height="480" fetchpriority="high">
                 </div>
             </div>
         </section>
@@ -62,7 +65,7 @@
         <div class="footer-content">
                 <div class="footer-links">
                     <div class="footerLogo">
-                        <img class="logo-img" src="assets/favi.png" alt="">
+                        <img class="logo-img" src="assets/logo-128.png" alt="Bubbles Grooming" width="75" height="75" loading="lazy" decoding="async">
                     </div>
                     <div class="footer-section">
                         <ul class="footer-section-list">

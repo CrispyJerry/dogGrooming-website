@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for contacting Bubbles Grooming. We will respond to your dog grooming enquiry as soon as possible.">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/test.css">
-    <title>About Us</title>
-    <link rel="icon" href="assets/favi.png" type="image/png">
+    <title>Thank You | Bubbles Grooming</title>
+    <link rel="icon" href="assets/favicon-64.png" type="image/png">
     <script src="test.js" defer></script>
 </head>
 <body>
     <header class="site-header">
         <div class="Logo">
-            <a href="index.html">
-                <img class="logo-img" src="assets/favi.png" alt="">
+            <a href="index.html" aria-label="Bubbles Grooming home">
+                <img class="logo-img" src="assets/logo-128.png" alt="Bubbles Grooming" width="75" height="75">
             </a>
         </div>
-        <nav>
-            <ul class="sidebar">
+        <nav aria-label="Main navigation">
+            <ul class="sidebar" id="mobile-menu">
                 <li class="sidebarLink"><a class="mainLink" href="index.html">Home</a></li>
                 <li class="sidebarLink"><a class="mainLink" href="services.html">Services</a></li>
                 <li class="sidebarLink"><a class="mainLink" href="contact.html">Contact Us</a></li>
@@ -28,16 +31,16 @@
                 <li class="hideMobile"><a class="mainLink" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-        <div class="hamburger">
+        <button class="hamburger" type="button" aria-label="Open navigation menu" aria-controls="mobile-menu" aria-expanded="false">
             <div class="bar"></div>
             <div class="bar"></div>
-        </div>
+        </button>
     </header>
 
     <main>
         <div class="cta-section-large">
             <div class="cta-info">
-                <img class="why-us-graphic" src="./assets/check-mark.png" alt="">
+                <img class="why-us-graphic" src="assets/check-mark.png" alt="" width="100" height="100">
                 <h1 class="">Thank you for reaching out!</h1>
                 <p>We will contact you as soon as possible</p>
                 <br>
@@ -50,7 +53,7 @@
         <div class="footer-content">
                 <div class="footer-links">
                     <div class="footerLogo">
-                        <img class="logo-img" src="assets/favi.png" alt="">
+                        <img class="logo-img" src="assets/logo-128.png" alt="Bubbles Grooming" width="75" height="75" loading="lazy" decoding="async">
                     </div>
                     <div class="footer-section">
                         <ul class="footer-section-list">
